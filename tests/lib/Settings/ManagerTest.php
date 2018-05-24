@@ -199,7 +199,7 @@ class ManagerTest extends TestCase {
 			->willReturnMap([
 				['core', 'actions/info.svg', '1'],
 				['settings', 'password.svg', '2'],
-				['settings', 'change.svg', '3'],
+				['core', 'client/phone.svg', '3'],
 			]);
 
 		$this->assertArraySubset([
